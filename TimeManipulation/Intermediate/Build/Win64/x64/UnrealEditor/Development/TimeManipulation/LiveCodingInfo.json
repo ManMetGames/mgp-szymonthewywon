@@ -1,5 +1,9 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.TimeManipulation.gen.cpp.obj": [
+			"PlayerCharacter.gen.cpp.obj",
+			"TimeManipulation.init.gen.cpp.obj"
+		]
 	}
 }

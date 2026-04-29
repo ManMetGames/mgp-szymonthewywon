@@ -1,0 +1,26 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ue_5.7\\mgp-szymonthewywon\\timemanipulation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\timemanipulation\\module.timemanipulation.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue_5.7\\mgp-szymonthewywon\\timemanipulation\\intermediate\\build\\win64\\x64\\timemanipulationeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\ue_5.7\\mgp-szymonthewywon\\timemanipulation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\timemanipulation\\definitions.timemanipulation.h",
+            "d:\\ue_5.7\\mgp-szymonthewywon\\timemanipulation\\intermediate\\build\\win64\\unrealeditor\\inc\\timemanipulation\\uht\\playercharacter.gen.cpp",
+            "d:\\ue_5.7\\mgp-szymonthewywon\\timemanipulation\\source\\timemanipulation\\public\\playercharacter.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\ue_5.7\\mgp-szymonthewywon\\timemanipulation\\intermediate\\build\\win64\\unrealeditor\\inc\\timemanipulation\\uht\\playercharacter.generated.h",
+            "d:\\ue_5.7\\mgp-szymonthewywon\\timemanipulation\\intermediate\\build\\win64\\unrealeditor\\inc\\timemanipulation\\uht\\timemanipulation.init.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
