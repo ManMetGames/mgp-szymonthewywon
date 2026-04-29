@@ -16,7 +16,9 @@
             "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
-            "d:\\ue_5.7\\mgp-szymonthewywon\\timemanipulation\\intermediate\\build\\win64\\unrealeditor\\inc\\timemanipulation\\uht\\playercharacter.generated.h"
+            "d:\\ue_5.7\\mgp-szymonthewywon\\timemanipulation\\intermediate\\build\\win64\\unrealeditor\\inc\\timemanipulation\\uht\\playercharacter.generated.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

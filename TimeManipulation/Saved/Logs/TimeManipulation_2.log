@@ -1231,3 +1231,588 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 		NumGeometrySegments changed: current: 0 - new: 512
 [2026.04.29-11.06.48:442][463]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
 [2026.04.29-11.06.48:613][464]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.04.29-11.11.22:120][467]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 987.641174
+[2026.04.29-11.11.23:120][470]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.29-11.11.23:120][470]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 988.307800, Update Interval: 351.236298
+[2026.04.29-11.17.28:804][567]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1354.324585
+[2026.04.29-11.17.29:806][570]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.29-11.17.29:806][570]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1354.992676, Update Interval: 306.839203
+[2026.04.29-11.18.53:019][820]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2026.04.29-11.18.53:019][820]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2026.04.29-11.18.59:346][385]LogStreaming: Display: FlushAsyncLoading(674): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.29-11.18.59:598][390]LogPSOHitching: Encountered 200 PSO creation hitches so far (84 graphics, 116 compute). 0 of them were precached.
+[2026.04.29-11.19.10:081][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2026.04.29-11.19.14:413][451]LogStreaming: Display: FlushAsyncLoading(675): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.29-11.19.14:423][451]Candidate modules for hot reload:
+[2026.04.29-11.19.14:423][451]  TimeManipulation
+[2026.04.29-11.19.14:431][451]Launching UnrealBuildTool... [D:/UE_5.6/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=TimeManipulation,0546 TimeManipulationEditor Win64 Development -Project="D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject" "D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject"  -IgnoreJunk]
+[2026.04.29-11.19.14:441][451]Warning: Starting HotReload took  0.0s.
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300 win-x64
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=TimeManipulation,0546 TimeManipulationEditor Win64 Development -Project="D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject" "D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject"  -IgnoreJunk
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: Log file: C:\Users\admin\AppData\Local\UnrealBuildTool\Log.txt
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE_5.7\mgp-szymonthewywon).
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: Parsing headers for TimeManipulationEditor
+[2026.04.29-11.19.40:542][802]CompilerResultsLog:   Running Internal UnrealHeaderTool D:\UE_5.7\mgp-szymonthewywon\TimeManipulation\TimeManipulation.uproject D:\UE_5.7\mgp-szymonthewywon\TimeManipulation\Intermediate\Build\Win64\TimeManipulationEditor\Development\TimeManipulationEditor.uhtmanifest -WarningsAsErrors -installed
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: Total of 0 written
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: Reflection code generated for TimeManipulationEditor in 4.2701192 seconds
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: Building TimeManipulationEditor...
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2026.04.29-11.19.40:542][802]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 5 action(s)
+[2026.04.29-11.19.40:542][802]CompilerResultsLog:   Storage capacity 40Gb
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: ---- Starting trace: 260429_121921 ----
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: ------ Building 5 action(s) started ------
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: [1/5] Compile [x64] Module.TimeManipulation.gen.cpp
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: [2/5] Compile [x64] PlayerCharacter.cpp
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: [3/5] Link [x64] UnrealEditor-TimeManipulation-0546.lib
+[2026.04.29-11.19.40:542][802]CompilerResultsLog: [4/5] Link [x64] UnrealEditor-TimeManipulation-0546.dll
+[2026.04.29-11.19.40:543][802]CompilerResultsLog: [5/5] WriteMetadata TimeManipulationEditor.target (UBA disabled)
+[2026.04.29-11.19.40:543][802]CompilerResultsLog: Trace written to file C:/Users/admin/AppData/Local/UnrealBuildTool/Log.uba with size 4.9kb
+[2026.04.29-11.19.40:543][802]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 19.04 seconds
+[2026.04.29-11.19.40:543][802]CompilerResultsLog: 
+[2026.04.29-11.19.40:543][802]CompilerResultsLog: Result: Succeeded
+[2026.04.29-11.19.40:543][802]CompilerResultsLog: Total execution time: 25.24 seconds
+[2026.04.29-11.19.40:543][802]LogMainFrame: MainFrame: Module compiling took 26.128 seconds
+[2026.04.29-11.19.40:543][802]LogStreaming: Display: FlushAsyncLoading(676): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.29-11.19.40:571][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.04.29-11.19.40:613][802]LogClass: UClass PlayerCharacter Reload.
+[2026.04.29-11.19.40:613][802]LogClass: Could not find existing class PlayerCharacter in package /Script/TimeManipulation for reload, assuming new or modified class
+[2026.04.29-11.19.40:642][802]Re-instancing PlayerCharacter after reload.
+[2026.04.29-11.19.40:971][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2026.04.29-11.19.41:001][802]Display: HotReload took 26.6s.
+[2026.04.29-11.19.41:001][802]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2026.04.29-11.23.01:219][850]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1686.737427
+[2026.04.29-11.23.02:221][853]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.29-11.23.02:221][853]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1687.406006, Update Interval: 340.176392
+[2026.04.29-11.24.42:706][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2026.04.29-11.24.42:707][ 96]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainMap' took 0.120
+[2026.04.29-11.24.42:709][ 96]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_PlayerCharacter] ([2] browsable assets)...
+[2026.04.29-11.24.42:709][ 96]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerCharacter]
+[2026.04.29-11.24.42:742][ 96]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_PlayerCharacter_Auto1
+[2026.04.29-11.24.42:742][ 96]LogSavePackage: Moving '../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Saved/BP_PlayerCharacter_Auto109D9449946D3EC3AD2A80795DDFCF9AD.tmp' to '../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Saved/Autosaves/Game/Blueprints/BP_PlayerCharacter_Auto1.uasset'
+[2026.04.29-11.24.42:743][ 96]LogFileHelpers: Auto-saving content packages took 0.036
+[2026.04.29-11.25.53:356][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.04.29-11.26.02:093][417]Candidate modules for hot reload:
+[2026.04.29-11.26.02:093][417]  TimeManipulation
+[2026.04.29-11.26.02:100][417]Launching UnrealBuildTool... [D:/UE_5.6/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=TimeManipulation,6219 TimeManipulationEditor Win64 Development -Project="D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject" "D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject"  -IgnoreJunk]
+[2026.04.29-11.26.02:110][417]Warning: Starting HotReload took  0.0s.
+[2026.04.29-11.26.16:639][767]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300 win-x64
+[2026.04.29-11.26.16:639][767]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=TimeManipulation,6219 TimeManipulationEditor Win64 Development -Project="D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject" "D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject"  -IgnoreJunk
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: Log file: C:\Users\admin\AppData\Local\UnrealBuildTool\Log.txt
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE_5.7\mgp-szymonthewywon).
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: Creating makefile for TimeManipulationEditor (command line arguments changed)
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: Building TimeManipulationEditor...
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2026.04.29-11.26.16:640][767]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 5 action(s)
+[2026.04.29-11.26.16:640][767]CompilerResultsLog:   Storage capacity 40Gb
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: ---- Starting trace: 260429_122607 ----
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: ------ Building 5 action(s) started ------
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: [1/5] Compile [x64] PlayerCharacter.cpp
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: [2/5] Compile [x64] Module.TimeManipulation.gen.cpp
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: [3/5] Link [x64] UnrealEditor-TimeManipulation-6219.lib
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: [4/5] Link [x64] UnrealEditor-TimeManipulation-6219.dll
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: [5/5] WriteMetadata TimeManipulationEditor.target (UBA disabled)
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: Trace written to file C:/Users/admin/AppData/Local/UnrealBuildTool/Log.uba with size 4.1kb
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 8.68 seconds
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: 
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: Result: Succeeded
+[2026.04.29-11.26.16:640][767]CompilerResultsLog: Total execution time: 14.10 seconds
+[2026.04.29-11.26.16:640][767]LogMainFrame: MainFrame: Module compiling took 14.562 seconds
+[2026.04.29-11.26.16:670][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.04.29-11.26.16:728][767]LogClass: UPackage /Script/TimeManipulation Reload.
+[2026.04.29-11.26.16:728][767]LogClass: UClass PlayerCharacter Reload.
+[2026.04.29-11.26.16:728][767]LogClass: Could not find existing class PlayerCharacter in package /Script/TimeManipulation for reload, assuming new or modified class
+[2026.04.29-11.26.16:743][767]Re-instancing PlayerCharacter after reload.
+[2026.04.29-11.26.16:865][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.04.29-11.26.16:894][767]Display: HotReload took 14.8s.
+[2026.04.29-11.26.16:894][767]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2026.04.29-11.29.39:954][ 42]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2085.469727
+[2026.04.29-11.29.40:113][ 59]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.29-11.29.40:113][ 59]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2085.619385, Update Interval: 315.489380
+[2026.04.29-11.34.43:690][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2026.04.29-11.34.43:692][917]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainMap' took 0.128
+[2026.04.29-11.34.43:692][917]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_PlayerCharacter] ([2] browsable assets)...
+[2026.04.29-11.34.43:692][917]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerCharacter]
+[2026.04.29-11.34.43:940][917]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_PlayerCharacter_Auto2
+[2026.04.29-11.34.43:940][917]LogSavePackage: Moving '../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Saved/BP_PlayerCharacter_Auto28F95EDDA45F1BB4BDE14CC9A88972123.tmp' to '../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Saved/Autosaves/Game/Blueprints/BP_PlayerCharacter_Auto2.uasset'
+[2026.04.29-11.34.43:941][917]LogFileHelpers: Auto-saving content packages took 0.248
+[2026.04.29-11.35.30:984][ 59]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2436.507812
+[2026.04.29-11.35.31:984][ 62]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.29-11.35.31:984][ 62]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2437.175049, Update Interval: 341.284210
+[2026.04.29-11.35.42:529][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2026.04.29-11.35.50:594][784]LogSlate: External Image Picker: DecompressImage failed
+[2026.04.29-11.36.39:308][762]LogSlate: Window 'Project Settings' being destroyed
+[2026.04.29-11.36.47:703][469]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.29-11.36.47:713][469]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.29-11.36.47:726][470]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.04.29-11.36.52:148][855]LogContentBrowser: Attempting asset rename: NewFolder -> Gamemodes
+[2026.04.29-11.36.52:149][855]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: ================================================
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Total job queries 457, among them cache hits 23 (5.03%), DDC hits 356 (77.90%), Duplicates 76 (16.63%)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Tracking 358 distinct input hashes that result in 249 distinct outputs (69.55%)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: RAM used: 3.39 MiB of 1.60 GiB budget. Usage: 0.21%
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Shaders Compiled: 2
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.10 s
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Job execution time: average 0.83 s, max 0.93 s
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Job life time (pending + execution): average 0.93 s, max 1.03
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Shader code size: total 13.988 KiB, numShaders 2, average 6.994 KiB, min 6.379 KiB, max 7.609 KiB
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.03 s
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Average processing rate: 1.94 jobs/sec
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Total thread time: 1.087 s
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Total thread preprocess time: 8.502 s
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Percentage time preprocessing: 782.21%
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Effective parallelization: 1.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.131730
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.64 sec, max 0.64 sec, min 0.64 sec)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.45 sec, max 0.45 sec, min 0.45 sec)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 58.70% of total time (compiled    1 times, average 0.64 sec, max 0.64 sec, min 0.64 sec)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 41.30% of total time (compiled    1 times, average 0.45 sec, max 0.45 sec, min 0.45 sec)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display:                                                 FLumenCardPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: === Material stats ===
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Materials Translated:    142
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Material Translation Only: 0.06 s (53%)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: Material Cache Hits: 33 (23%)
+[2026.04.29-11.37.04:888][884]LogShaderCompilers: Display: ================================================
+[2026.04.29-11.37.25:967][505]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.04.29-11.37.25:980][505]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.04.29-11.37.25:987][505]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.04.29-11.37.26:022][507]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.04.29-11.37.33:101][117]LogContentBrowser: Attempting asset rename: NewBlueprint -> PlayerGamemode
+[2026.04.29-11.37.33:196][117]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.04.29-11.37.34:048][173]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Gamemodes/PlayerGamemode.PlayerGamemode
+[2026.04.29-11.37.34:049][173]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.04.29-11.37.48:131][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2026.04.29-11.37.49:704][ 65]LogSlate: Window 'PlayerGamemode' being destroyed
+[2026.04.29-11.37.49:712][ 65]LogSlate: Window 'PlayerGamemode' being destroyed
+[2026.04.29-11.37.49:717][ 65]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.04.29-11.37.49:717][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.29-11.37.49:781][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2026.04.29-11.37.53:763][388]LogSlate: External Image Picker: DecompressImage failed
+[2026.04.29-11.38.11:198][505]LogSlate: Window 'Project Settings' being destroyed
+[2026.04.29-11.38.21:151][404]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.29-11.38.21:206][404]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_PlayerCharacter] ([2] browsable assets)...
+[2026.04.29-11.38.21:206][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerCharacter]
+[2026.04.29-11.38.21:206][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerCharacter" FILE="../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Content/Blueprints/BP_PlayerCharacter.uasset" SILENT=true
+[2026.04.29-11.38.21:219][404]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PlayerCharacter
+[2026.04.29-11.38.21:220][404]LogSavePackage: Moving '../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Saved/BP_PlayerCharacter711581EA46EB58310BE3DF89EC65D227.tmp' to '../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Content/Blueprints/BP_PlayerCharacter.uasset'
+[2026.04.29-11.38.21:232][404]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.630 ms
+[2026.04.29-11.38.21:308][404]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.29-11.38.21:308][404]LogContentValidation: Enabled validators:
+[2026.04.29-11.38.21:308][404]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.29-11.38.21:308][404]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.29-11.38.21:308][404]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.29-11.38.21:308][404]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.29-11.38.21:308][404]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.29-11.38.21:308][404]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.29-11.38.21:309][404]AssetCheck: /Game/Blueprints/BP_PlayerCharacter Validating asset
+[2026.04.29-11.38.24:046][636]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.29-11.38.24:068][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.29-11.38.24:068][636]LogPlayLevel: Display: Creating online subsystem for client :Context_5
+[2026.04.29-11.38.24:071][636]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2026.04.29-11.38.24:099][637]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2026.04.29-11.38.24:102][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003158s)
+[2026.04.29-11.38.24:102][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.003221s)
+[2026.04.29-11.38.24:130][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.04.29-11.38.24:132][637]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMap
+[2026.04.29-11.38.24:134][637]LogPlayLevel: PIE: World Init took: (0.001991s)
+[2026.04.29-11.38.24:135][637]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.04.29-11.38.24:135][637]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.29-11.38.24:135][637]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.29-11.38.24:135][637]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.29-11.38.24:135][637]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.29-11.38.24:135][637]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.29-11.38.24:135][637]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.29-11.38.24:135][637]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.29-11.38.24:135][637]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.29-11.38.24:135][637]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.29-11.38.24:135][637]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.29-11.38.24:135][637]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.29-11.38.24:138][637]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.29-11.38.24:164][637]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2026.04.29-11.38.24:164][637]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.29-11.38.24:164][637]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.29-11.38.24:164][637]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.29-11.38.24:165][637]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.04.29-11.38.24:165][637]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.04.29-11.38.24:168][637]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.04.29-11.38.24:168][637]LogInit: FAudioDevice initialized with ID 2.
+[2026.04.29-11.38.24:168][637]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.04.29-11.38.24:168][637]LogAudio: Display: Audio Device (ID: 2) registered with world 'MainMap'.
+[2026.04.29-11.38.24:168][637]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.04.29-11.38.24:173][637]LogLoad: Game class is 'PlayerGamemode_C'
+[2026.04.29-11.38.24:174][637]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2026.04.29-12.38.24
+[2026.04.29-11.38.24:174][637]LogWorld: Bringing up level for play took: 0.000823
+[2026.04.29-11.38.24:209][637]PIE: Server logged in
+[2026.04.29-11.38.24:212][637]PIE: Play in editor total start time 0.159 seconds.
+[2026.04.29-11.38.24:273][638]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.29-11.38.33:252][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.29-11.38.33:252][295]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2026.04.29-11.38.33:252][295]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.29-11.38.33:252][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.29-11.38.33:252][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.29-11.38.33:259][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.29-11.38.33:289][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.29-11.38.33:289][295]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.04.29-11.38.33:289][295]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.04.29-11.38.33:292][295]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.04.29-11.38.33:298][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2026.04.29-11.38.33:395][296]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2026.04.29-11.41.52:896][193]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2818.407471
+[2026.04.29-11.41.53:895][196]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.29-11.41.53:895][196]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2819.073975, Update Interval: 357.412628
+[2026.04.29-11.42.54:539][115]LogSlate: Window 'Editor Preferences' being destroyed
+[2026.04.29-11.42.54:552][115]LogSlate: Window 'Editor Preferences' being destroyed
+[2026.04.29-11.42.58:345][355]LogSlate: External Image Picker: DecompressImage failed
+[2026.04.29-11.45.25:725][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.04.29-11.45.25:728][ 26]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainMap' took 0.040
+[2026.04.29-11.45.25:729][ 26]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Gamemodes/PlayerGamemode] ([2] browsable assets)...
+[2026.04.29-11.45.25:729][ 26]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gamemodes/PlayerGamemode]
+[2026.04.29-11.45.25:741][ 26]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Gamemodes/PlayerGamemode_Auto3
+[2026.04.29-11.45.25:741][ 26]LogSavePackage: Moving '../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Saved/PlayerGamemode_Auto38F825A0C4D139B00AAD8F3A1E3F254C8.tmp' to '../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Saved/Autosaves/Game/Gamemodes/PlayerGamemode_Auto3.uasset'
+[2026.04.29-11.45.25:742][ 26]LogFileHelpers: Auto-saving content packages took 0.015
+[2026.04.29-11.45.27:870][146]LogSlate: Window 'Project Settings' being destroyed
+[2026.04.29-11.45.30:656][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.04.29-11.45.32:282][369]LogSlate: Window 'Save Content' being destroyed
+[2026.04.29-11.45.32:315][369]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.29-11.45.32:385][369]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Gamemodes/PlayerGamemode] ([2] browsable assets)...
+[2026.04.29-11.45.32:385][369]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gamemodes/PlayerGamemode]
+[2026.04.29-11.45.32:385][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gamemodes/PlayerGamemode" FILE="../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Content/Gamemodes/PlayerGamemode.uasset" SILENT=true
+[2026.04.29-11.45.32:396][369]LogSavePackage: Moving output files for package: /Game/Gamemodes/PlayerGamemode
+[2026.04.29-11.45.32:396][369]LogSavePackage: Moving '../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Saved/PlayerGamemode2D73EE5A4774964778A3E9ABB5AC335F.tmp' to '../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Content/Gamemodes/PlayerGamemode.uasset'
+[2026.04.29-11.45.32:410][369]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.412 ms (total: 176.042 ms)
+[2026.04.29-11.45.32:469][369]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.29-11.45.32:469][369]LogContentValidation: Enabled validators:
+[2026.04.29-11.45.32:469][369]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.29-11.45.32:469][369]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.29-11.45.32:469][369]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.29-11.45.32:469][369]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.29-11.45.32:469][369]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.29-11.45.32:469][369]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.29-11.45.32:469][369]AssetCheck: /Game/Gamemodes/PlayerGamemode Validating asset
+[2026.04.29-11.45.32:491][369]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../UE_5.7/mgp-szymonthewywon/TimeManipulation/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.29-11.45.33:554][449]Candidate modules for hot reload:
+[2026.04.29-11.45.33:554][449]  TimeManipulation
+[2026.04.29-11.45.33:562][449]Launching UnrealBuildTool... [D:/UE_5.6/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=TimeManipulation,9539 TimeManipulationEditor Win64 Development -Project="D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject" "D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject"  -IgnoreJunk]
+[2026.04.29-11.45.33:572][449]Warning: Starting HotReload took  0.0s.
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300 win-x64
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=TimeManipulation,9539 TimeManipulationEditor Win64 Development -Project="D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject" "D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject"  -IgnoreJunk
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog: Log file: C:\Users\admin\AppData\Local\UnrealBuildTool\Log.txt
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE_5.7\mgp-szymonthewywon).
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog: Creating makefile for TimeManipulationEditor (command line arguments changed)
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog: Building TimeManipulationEditor...
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog: Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 5 action(s)
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog:   Storage capacity 40Gb
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog: ---- Starting trace: 260429_124538 ----
+[2026.04.29-11.46.09:134][ 29]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2026.04.29-11.46.09:135][ 29]CompilerResultsLog: ------ Building 5 action(s) started ------
+[2026.04.29-11.46.09:135][ 29]CompilerResultsLog: [1/5] Compile [x64] Module.TimeManipulation.gen.cpp
+[2026.04.29-11.46.09:135][ 29]CompilerResultsLog: [2/5] Compile [x64] PlayerCharacter.cpp
+[2026.04.29-11.46.09:135][ 29]CompilerResultsLog: [3/5] Link [x64] UnrealEditor-TimeManipulation-9539.lib
+[2026.04.29-11.46.09:135][ 29]CompilerResultsLog: [4/5] Link [x64] UnrealEditor-TimeManipulation-9539.dll
+[2026.04.29-11.46.09:135][ 29]CompilerResultsLog: [5/5] WriteMetadata TimeManipulationEditor.target (UBA disabled)
+[2026.04.29-11.46.09:135][ 29]CompilerResultsLog: Trace written to file C:/Users/admin/AppData/Local/UnrealBuildTool/Log.uba with size 5.9kb
+[2026.04.29-11.46.09:135][ 29]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 30.01 seconds
+[2026.04.29-11.46.09:135][ 29]CompilerResultsLog: 
+[2026.04.29-11.46.09:135][ 29]CompilerResultsLog: Result: Succeeded
+[2026.04.29-11.46.09:135][ 29]CompilerResultsLog: Total execution time: 34.94 seconds
+[2026.04.29-11.46.09:135][ 29]LogMainFrame: MainFrame: Module compiling took 35.594 seconds
+[2026.04.29-11.46.09:170][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2026.04.29-11.46.09:655][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2026.04.29-11.46.09:683][ 29]Display: HotReload took 36.2s.
+[2026.04.29-11.46.09:683][ 29]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2026.04.29-11.47.41:815][720]LogSlate: External Image Picker: DecompressImage failed
+[2026.04.29-11.48.21:596][ 67]LogSlate: Window 'Project Settings' being destroyed
+[2026.04.29-11.48.27:475][572]Candidate modules for hot reload:
+[2026.04.29-11.48.27:475][572]  TimeManipulation
+[2026.04.29-11.48.27:483][572]Launching UnrealBuildTool... [D:/UE_5.6/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=TimeManipulation,1210 TimeManipulationEditor Win64 Development -Project="D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject" "D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject"  -IgnoreJunk]
+[2026.04.29-11.48.27:493][572]Warning: Starting HotReload took  0.0s.
+[2026.04.29-11.48.29:555][709]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3215.060303
+[2026.04.29-11.48.29:694][721]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.29-11.48.29:694][721]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3215.188232, Update Interval: 327.217621
+[2026.04.29-11.48.31:358][866]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300 win-x64
+[2026.04.29-11.48.31:358][866]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=TimeManipulation,1210 TimeManipulationEditor Win64 Development -Project="D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject" "D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject"  -IgnoreJunk
+[2026.04.29-11.48.31:358][866]CompilerResultsLog: Log file: C:\Users\admin\AppData\Local\UnrealBuildTool\Log.txt
+[2026.04.29-11.48.31:358][866]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE_5.7\mgp-szymonthewywon).
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: Building TimeManipulationEditor...
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2026.04.29-11.48.31:359][866]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 3 action(s)
+[2026.04.29-11.48.31:359][866]CompilerResultsLog:   Storage capacity 40Gb
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: ---- Starting trace: 260429_124829 ----
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: ------ Building 3 action(s) started ------
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: [1/3] Link [x64] UnrealEditor-TimeManipulation-1210.lib
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: [2/3] Link [x64] UnrealEditor-TimeManipulation-1210.dll
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: [3/3] WriteMetadata TimeManipulationEditor.target (UBA disabled)
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: Trace written to file C:/Users/admin/AppData/Local/UnrealBuildTool/Log.uba with size 3.1kb
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 2.16 seconds
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: 
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: Result: Succeeded
+[2026.04.29-11.48.31:359][866]CompilerResultsLog: Total execution time: 3.62 seconds
+[2026.04.29-11.48.31:359][866]LogMainFrame: MainFrame: Module compiling took 3.895 seconds
+[2026.04.29-11.48.31:488][866]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2026.04.29-11.48.31:866][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2026.04.29-11.48.31:896][866]Display: HotReload took  4.4s.
+[2026.04.29-11.48.31:896][866]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2026.04.29-11.48.34:482][ 22]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.29-11.48.34:493][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.29-11.48.34:529][ 22]LogPlayLevel: Display: Creating online subsystem for client :Context_6
+[2026.04.29-11.48.34:532][ 22]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2026.04.29-11.48.34:555][ 23]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2026.04.29-11.48.34:557][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002524s)
+[2026.04.29-11.48.34:557][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.002574s)
+[2026.04.29-11.48.34:672][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.04.29-11.48.34:682][ 23]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMap
+[2026.04.29-11.48.34:684][ 23]LogPlayLevel: PIE: World Init took: (0.002075s)
+[2026.04.29-11.48.34:685][ 23]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.04.29-11.48.34:685][ 23]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.29-11.48.34:685][ 23]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.29-11.48.34:685][ 23]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.29-11.48.34:685][ 23]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.29-11.48.34:685][ 23]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.29-11.48.34:685][ 23]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.29-11.48.34:685][ 23]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.29-11.48.34:685][ 23]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.29-11.48.34:685][ 23]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.29-11.48.34:685][ 23]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.29-11.48.34:685][ 23]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.29-11.48.34:687][ 23]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.29-11.48.34:714][ 23]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2026.04.29-11.48.34:714][ 23]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.29-11.48.34:714][ 23]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.29-11.48.34:714][ 23]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.29-11.48.34:714][ 23]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.04.29-11.48.34:714][ 23]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.04.29-11.48.34:717][ 23]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.04.29-11.48.34:717][ 23]LogInit: FAudioDevice initialized with ID 3.
+[2026.04.29-11.48.34:717][ 23]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.04.29-11.48.34:717][ 23]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainMap'.
+[2026.04.29-11.48.34:717][ 23]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.04.29-11.48.34:722][ 23]LogLoad: Game class is 'PlayerGamemode_C'
+[2026.04.29-11.48.34:722][ 23]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2026.04.29-12.48.34
+[2026.04.29-11.48.34:723][ 23]LogWorld: Bringing up level for play took: 0.000777
+[2026.04.29-11.48.34:725][ 23]PIE: Server logged in
+[2026.04.29-11.48.34:727][ 23]PIE: Play in editor total start time 0.235 seconds.
+[2026.04.29-11.48.35:463][ 24]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.29-11.48.47:900][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.29-11.48.47:900][878]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2026.04.29-11.48.47:900][878]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.29-11.48.47:901][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.29-11.48.47:902][878]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.29-11.48.47:908][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.29-11.48.47:945][878]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.29-11.48.47:957][878]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.04.29-11.48.47:957][878]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.04.29-11.48.47:959][878]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.04.29-11.48.47:965][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.29-11.48.47:987][878]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2026.04.29-11.48.48:174][879]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2026.04.29-11.49.10:011][377]LogSlate: Window 'Editor Preferences' being destroyed
+[2026.04.29-11.49.10:025][377]LogSlate: Window 'Editor Preferences' being destroyed
+[2026.04.29-11.49.15:349][709]LogSlate: External Image Picker: DecompressImage failed
+[2026.04.29-11.49.32:091][676]LogSlate: Window 'Project Settings' being destroyed
+[2026.04.29-11.49.35:160][933]Candidate modules for hot reload:
+[2026.04.29-11.49.35:160][933]  TimeManipulation
+[2026.04.29-11.49.35:168][933]Launching UnrealBuildTool... [D:/UE_5.6/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=TimeManipulation,3609 TimeManipulationEditor Win64 Development -Project="D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject" "D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject"  -IgnoreJunk]
+[2026.04.29-11.49.35:177][933]Warning: Starting HotReload took  0.0s.
+[2026.04.29-11.49.44:360][637]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300 win-x64
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=TimeManipulation,3609 TimeManipulationEditor Win64 Development -Project="D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject" "D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject"  -IgnoreJunk
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Log file: C:\Users\admin\AppData\Local\UnrealBuildTool\Log.txt
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE_5.7\mgp-szymonthewywon).
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Parsing headers for TimeManipulationEditor
+[2026.04.29-11.49.44:361][637]CompilerResultsLog:   Running Internal UnrealHeaderTool D:\UE_5.7\mgp-szymonthewywon\TimeManipulation\TimeManipulation.uproject D:\UE_5.7\mgp-szymonthewywon\TimeManipulation\Intermediate\Build\Win64\TimeManipulationEditor\Development\TimeManipulationEditor.uhtmanifest -WarningsAsErrors -installed
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Total of 0 written
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Reflection code generated for TimeManipulationEditor in 3.2647576 seconds
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Building TimeManipulationEditor...
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2026.04.29-11.49.44:361][637]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 5 action(s)
+[2026.04.29-11.49.44:361][637]CompilerResultsLog:   Storage capacity 40Gb
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: ---- Starting trace: 260429_124940 ----
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: ------ Building 5 action(s) started ------
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: [1/5] Compile [x64] Module.TimeManipulation.gen.cpp
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: [2/5] Compile [x64] PlayerCharacter.cpp
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: [3/5] Link [x64] UnrealEditor-TimeManipulation-3609.lib
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: [4/5] Link [x64] UnrealEditor-TimeManipulation-3609.dll
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: [5/5] WriteMetadata TimeManipulationEditor.target (UBA disabled)
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Trace written to file C:/Users/admin/AppData/Local/UnrealBuildTool/Log.uba with size 3.7kb
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 3.84 seconds
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: 
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Result: Succeeded
+[2026.04.29-11.49.44:361][637]CompilerResultsLog: Total execution time: 8.74 seconds
+[2026.04.29-11.49.44:361][637]LogMainFrame: MainFrame: Module compiling took 9.224 seconds
+[2026.04.29-11.49.44:397][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.04.29-11.49.44:861][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.04.29-11.49.44:887][637]Display: HotReload took  9.8s.
+[2026.04.29-11.49.44:887][637]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2026.04.29-11.49.47:820][815]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.29-11.49.47:828][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.29-11.49.47:850][815]LogPlayLevel: Display: Creating online subsystem for client :Context_7
+[2026.04.29-11.49.47:854][815]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2026.04.29-11.49.47:874][816]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2026.04.29-11.49.47:876][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002561s)
+[2026.04.29-11.49.47:876][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.002610s)
+[2026.04.29-11.49.47:988][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2026.04.29-11.49.47:993][816]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMap
+[2026.04.29-11.49.47:995][816]LogPlayLevel: PIE: World Init took: (0.002114s)
+[2026.04.29-11.49.47:996][816]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.04.29-11.49.47:996][816]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.29-11.49.47:996][816]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.29-11.49.47:996][816]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.29-11.49.47:996][816]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.29-11.49.47:996][816]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.29-11.49.47:996][816]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.29-11.49.47:996][816]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.29-11.49.47:996][816]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.29-11.49.47:996][816]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.29-11.49.47:996][816]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.29-11.49.47:996][816]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.29-11.49.47:999][816]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.29-11.49.48:025][816]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2026.04.29-11.49.48:025][816]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.29-11.49.48:025][816]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.29-11.49.48:025][816]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.29-11.49.48:025][816]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.04.29-11.49.48:025][816]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.04.29-11.49.48:028][816]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.04.29-11.49.48:028][816]LogInit: FAudioDevice initialized with ID 4.
+[2026.04.29-11.49.48:028][816]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.04.29-11.49.48:028][816]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainMap'.
+[2026.04.29-11.49.48:028][816]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.04.29-11.49.48:033][816]LogLoad: Game class is 'PlayerGamemode_C'
+[2026.04.29-11.49.48:034][816]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2026.04.29-12.49.48
+[2026.04.29-11.49.48:034][816]LogWorld: Bringing up level for play took: 0.000784
+[2026.04.29-11.49.48:037][816]PIE: Server logged in
+[2026.04.29-11.49.48:039][816]PIE: Play in editor total start time 0.21 seconds.
+[2026.04.29-11.49.48:090][817]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.29-11.49.57:651][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.29-11.49.57:651][685]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2026.04.29-11.49.57:651][685]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.29-11.49.57:652][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.29-11.49.57:653][685]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.29-11.49.57:659][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.29-11.49.57:688][685]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.29-11.49.57:704][685]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.04.29-11.49.57:704][685]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.04.29-11.49.57:707][685]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.04.29-11.49.57:712][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.29-11.49.57:734][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2026.04.29-11.49.57:844][686]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2026.04.29-11.50.41:077][ 86]LogSlate: External Image Picker: DecompressImage failed
+[2026.04.29-11.50.50:237][610]LogSlate: Window 'Project Settings' being destroyed
+[2026.04.29-11.50.51:562][716]Candidate modules for hot reload:
+[2026.04.29-11.50.51:562][716]  TimeManipulation
+[2026.04.29-11.50.51:571][716]Launching UnrealBuildTool... [D:/UE_5.6/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=TimeManipulation,6959 TimeManipulationEditor Win64 Development -Project="D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject" "D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject"  -IgnoreJunk]
+[2026.04.29-11.50.51:580][716]Warning: Starting HotReload took  0.0s.
+[2026.04.29-11.50.56:274][ 79]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300 win-x64
+[2026.04.29-11.50.56:274][ 79]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=TimeManipulation,6959 TimeManipulationEditor Win64 Development -Project="D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject" "D:/UE_5.7/mgp-szymonthewywon/TimeManipulation/TimeManipulation.uproject"  -IgnoreJunk
+[2026.04.29-11.50.56:274][ 79]CompilerResultsLog: Log file: C:\Users\admin\AppData\Local\UnrealBuildTool\Log.txt
+[2026.04.29-11.50.56:274][ 79]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE_5.7\mgp-szymonthewywon).
+[2026.04.29-11.50.56:274][ 79]CompilerResultsLog: Building TimeManipulationEditor...
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 3 action(s)
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog:   Storage capacity 40Gb
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: ---- Starting trace: 260429_125053 ----
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: ------ Building 3 action(s) started ------
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: [1/3] Link [x64] UnrealEditor-TimeManipulation-6959.lib
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: [2/3] Link [x64] UnrealEditor-TimeManipulation-6959.dll
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: [3/3] WriteMetadata TimeManipulationEditor.target (UBA disabled)
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: Trace written to file C:/Users/admin/AppData/Local/UnrealBuildTool/Log.uba with size 3.2kb
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 2.78 seconds
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: 
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: Result: Succeeded
+[2026.04.29-11.50.56:275][ 79]CompilerResultsLog: Total execution time: 4.45 seconds
+[2026.04.29-11.50.56:275][ 79]LogMainFrame: MainFrame: Module compiling took 4.726 seconds
+[2026.04.29-11.50.56:316][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.04.29-11.50.56:567][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.04.29-11.50.56:595][ 79]Display: HotReload took  5.1s.
+[2026.04.29-11.50.56:595][ 79]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2026.04.29-11.50.59:164][231]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.29-11.50.59:174][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.29-11.50.59:174][231]LogPlayLevel: Display: Creating online subsystem for client :Context_8
+[2026.04.29-11.50.59:177][231]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2026.04.29-11.50.59:199][232]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2026.04.29-11.50.59:201][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002497s)
+[2026.04.29-11.50.59:201][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.002545s)
+[2026.04.29-11.50.59:308][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2026.04.29-11.50.59:313][232]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMap
+[2026.04.29-11.50.59:315][232]LogPlayLevel: PIE: World Init took: (0.001997s)
+[2026.04.29-11.50.59:316][232]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.04.29-11.50.59:316][232]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.29-11.50.59:316][232]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.29-11.50.59:316][232]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.29-11.50.59:316][232]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.29-11.50.59:316][232]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.29-11.50.59:316][232]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.29-11.50.59:317][232]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.29-11.50.59:317][232]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.29-11.50.59:317][232]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.29-11.50.59:317][232]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.29-11.50.59:317][232]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.29-11.50.59:319][232]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.29-11.50.59:344][232]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2026.04.29-11.50.59:345][232]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.29-11.50.59:345][232]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.29-11.50.59:345][232]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.29-11.50.59:345][232]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.04.29-11.50.59:345][232]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.04.29-11.50.59:349][232]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.04.29-11.50.59:349][232]LogInit: FAudioDevice initialized with ID 5.
+[2026.04.29-11.50.59:349][232]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.04.29-11.50.59:349][232]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainMap'.
+[2026.04.29-11.50.59:349][232]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.04.29-11.50.59:353][232]LogLoad: Game class is 'PlayerGamemode_C'
+[2026.04.29-11.50.59:353][232]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2026.04.29-12.50.59
+[2026.04.29-11.50.59:354][232]LogWorld: Bringing up level for play took: 0.000737
+[2026.04.29-11.50.59:356][232]PIE: Server logged in
+[2026.04.29-11.50.59:358][232]PIE: Play in editor total start time 0.185 seconds.
+[2026.04.29-11.50.59:411][233]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.29-11.51.11:762][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.29-11.51.11:762][376]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2026.04.29-11.51.11:762][376]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.29-11.51.11:762][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.29-11.51.11:764][376]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.29-11.51.11:771][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.29-11.51.11:804][376]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.29-11.51.11:818][376]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.04.29-11.51.11:818][376]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.04.29-11.51.11:821][376]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.04.29-11.51.11:827][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.29-11.51.11:856][376]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2026.04.29-11.51.11:967][377]LogPlayLevel: Display: Destroying online subsystem :Context_8

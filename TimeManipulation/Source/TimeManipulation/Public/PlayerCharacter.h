@@ -28,6 +28,12 @@ public:
 
 protected:
 
+	UPROPERTY(EditAnywhere)
 	class UCameraComponent* Camera;
 
+	void MoveForward(float InputValue);
+	void MoveRight(float InputValue);
+
+	void Turn(float InputValue);
+	void LookUp(float InputValue);
 };
