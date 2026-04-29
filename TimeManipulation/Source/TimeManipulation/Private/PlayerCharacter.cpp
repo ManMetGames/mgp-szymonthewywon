@@ -24,7 +24,8 @@ void APlayerCharacter::BeginPlay()
 // Called every frame
 void APlayerCharacter::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
+    Super::Tick(DeltaTime);
+    RecordPositions(DeltaTime);
 
 }
 
@@ -39,6 +40,9 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 	PlayerInputComponent->BindAxis("TurnCamera", this, &APlayerCharacter::Turn);
 	PlayerInputComponent->BindAxis("LookUp", this, &APlayerCharacter::LookUp);
+
+    PlayerInputComponent->BindAction("Rewind", IE_Pressed, this, &APlayerCharacter::StartRewind);
+    PlayerInputComponent->BindAction("Rewind", IE_Released, this, &APlayerCharacter::StopRewind);
 }
 void APlayerCharacter::MoveForward(float InputValue)
 {
@@ -60,4 +64,58 @@ void APlayerCharacter::Turn(float InputValue)
 void APlayerCharacter::LookUp(float InputValue)
 {
 	AddControllerPitchInput(InputValue);
+}
+
+void APlayerCharacter::HandleRewind()
+{
+    if (TimeBuffer.Num() <= 0)
+    {
+        bIsRewinding = false;
+        return;
+    }
+
+    FTimeSnapshot Snapshot = TimeBuffer.Last();
+    TimeBuffer.RemoveAt(TimeBuffer.Num() - 1);
+
+    SetActorLocation(Snapshot.Location);
+    SetActorRotation(Snapshot.Rotation);
+}
+
+void APlayerCharacter::RecordPositions(float DeltaTime) {
+    if (!bIsRewinding)
+    {
+        RecordTimer += DeltaTime;
+
+        if (RecordTimer >= RecordInterval)
+        {
+            RecordTimer = 0.0f;
+
+            FTimeSnapshot Snapshot;
+            Snapshot.Location = GetActorLocation();
+            Snapshot.Rotation = GetActorRotation();
+
+            TimeBuffer.Add(Snapshot);
+
+            // Limit buffer size (5 seconds worth)
+            int32 MaxSnapshots = MaxRecordTime / RecordInterval;
+            if (TimeBuffer.Num() > MaxSnapshots)
+            {
+                TimeBuffer.RemoveAt(0);
+            }
+        }
+    }
+    else
+    {
+        HandleRewind();
+    }
+}
+
+void APlayerCharacter::StartRewind()
+{
+    bIsRewinding = true;
+}
+
+void APlayerCharacter::StopRewind()
+{
+    bIsRewinding = false;
 }

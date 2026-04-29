@@ -16,10 +16,19 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
+// ********** Begin ScriptStruct FTimeSnapshot *****************************************************
+#define FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_11_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FTimeSnapshot_Statics; \
+	TIMEMANIPULATION_API static class UScriptStruct* StaticStruct();
+
+
+struct FTimeSnapshot;
+// ********** End ScriptStruct FTimeSnapshot *******************************************************
+
 // ********** Begin Class APlayerCharacter *********************************************************
 TIMEMANIPULATION_API UClass* Z_Construct_UClass_APlayerCharacter_NoRegister();
 
-#define FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \
 	friend struct Z_Construct_UClass_APlayerCharacter_Statics; \
@@ -30,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerCharacter)
 
 
-#define FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_19_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	APlayerCharacter(APlayerCharacter&&) = delete; \
 	APlayerCharacter(const APlayerCharacter&) = delete; \
@@ -40,12 +49,12 @@ public: \
 	NO_API virtual ~APlayerCharacter();
 
 
-#define FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_9_PROLOG
-#define FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_12_GENERATED_BODY \
+#define FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_16_PROLOG
+#define FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_19_INCLASS_NO_PURE_DECLS \
+	FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
