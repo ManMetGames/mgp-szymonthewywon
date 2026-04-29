@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TimeManipulation.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TimeManipulation.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TimeManipulationEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TimeManipulation">
+      <UniqueIdentifier>{AC0B3940-A4AC-381F-9297-BC6EEC93ECC2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TimeManipulation\TimeManipulation.Build.cs">
+      <Filter>Source\TimeManipulation</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TimeManipulation\TimeManipulation.cpp">
+      <Filter>Source\TimeManipulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimeManipulation\TimeManipulation.h">
+      <Filter>Source\TimeManipulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

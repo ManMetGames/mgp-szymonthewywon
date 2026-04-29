@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TimeManipulation",
+			"Path": "..\\Source\\TimeManipulation.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TimeManipulationEditor",
+			"Path": "..\\Source\\TimeManipulationEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
