@@ -1514,3 +1514,6 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
 		NumGeometrySegments changed: current: 0 - new: 512
 [2026.04.29-10.35.00:323][962]LogSlate: Took 0.005975 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.04.29-10.37.03:223][927]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 349.870331
+[2026.04.29-10.37.04:224][930]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.29-10.37.04:224][930]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 350.537292, Update Interval: 311.667847
