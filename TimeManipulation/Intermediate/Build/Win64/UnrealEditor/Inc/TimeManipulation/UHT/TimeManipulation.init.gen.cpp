@@ -17,22 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeTimeManipulation_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-<<<<<<< HEAD
-				0xA8AC52F3,
+				0xD436DF20,
 				0x7256178D,
-=======
-				0x19C6128A,
-				0x332FD3BE,
->>>>>>> TimeskipTeleport
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_TimeManipulation.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_TimeManipulation.OuterSingleton;
 	}
-<<<<<<< HEAD
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TimeManipulation(Z_Construct_UPackage__Script_TimeManipulation, TEXT("/Script/TimeManipulation"), Z_Registration_Info_UPackage__Script_TimeManipulation, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xA8AC52F3, 0x7256178D));
-=======
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TimeManipulation(Z_Construct_UPackage__Script_TimeManipulation, TEXT("/Script/TimeManipulation"), Z_Registration_Info_UPackage__Script_TimeManipulation, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x19C6128A, 0x332FD3BE));
->>>>>>> TimeskipTeleport
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TimeManipulation(Z_Construct_UPackage__Script_TimeManipulation, TEXT("/Script/TimeManipulation"), Z_Registration_Info_UPackage__Script_TimeManipulation, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xD436DF20, 0x7256178D));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

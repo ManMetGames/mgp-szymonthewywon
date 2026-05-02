@@ -74,7 +74,15 @@ void APlayerCharacter::HandleRewind()
         bIsRewinding = false;
         return;
     }
+    RewindTickCounter++;
+    // Only rewind every X frames 
+    if (RewindTickCounter < RewindTickInterval)
+    {
+        return;
+    }
+    RewindTickCounter = 0;
 
+    // Apply snapshot
     FTimeSnapshot Snapshot = TimeBuffer.Last();
     TimeBuffer.RemoveAt(TimeBuffer.Num() - 1);
 
