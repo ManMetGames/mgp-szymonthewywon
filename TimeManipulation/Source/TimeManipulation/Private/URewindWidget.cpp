@@ -10,6 +10,7 @@ void URewindWidget::NativeConstruct()
         UGameplayStatics::GetPlayerCharacter(GetWorld(), 0)
     );
 }
+
 float URewindWidget::GetRewindPercent() const
 {
     if (!PlayerRef) // if cant find player the bar displays 0

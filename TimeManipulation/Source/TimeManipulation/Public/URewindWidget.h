@@ -2,9 +2,10 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
+#include "PlayerCharacter.h"
 #include "URewindWidget.generated.h"
 
-class APlayerCharacter;
+
 
 UCLASS()
 class TIMEMANIPULATION_API URewindWidget : public UUserWidget

@@ -1,5 +1,6 @@
 #include "PlayerCharacter.h"
 #include "Camera/CameraComponent.h"
+#include "Blueprint/UserWidget.h"
 
 APlayerCharacter::APlayerCharacter()
 {
@@ -14,7 +15,15 @@ APlayerCharacter::APlayerCharacter()
 void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+    if (RewindWidgetClass)
+    {
+        UUserWidget* Widget = CreateWidget<UUserWidget>(GetWorld(), RewindWidgetClass);
+        if (Widget)
+        {
+            Widget->AddToViewport();
+        }
+    }
 }
 
 // Called every frame

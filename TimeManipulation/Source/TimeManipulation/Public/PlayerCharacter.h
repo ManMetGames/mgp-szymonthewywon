@@ -3,10 +3,10 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "PlayerCharacter.generated.h"
-USTRUCT()
+USTRUCT(BlueprintType)
 struct FTimeSnapshot
 {
-	GENERATED_BODY(EBlueprintType)
+	GENERATED_BODY()
 
 	FVector Location;
 	FRotator Rotation;
@@ -34,7 +34,7 @@ public:
 
 public: //accessed externally
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Rewind")
 	TArray<FTimeSnapshot> TimeBuffer;
 	//How often the player position and rotation is recorded
 	UPROPERTY(EditAnywhere, Category = "Rewind")
@@ -42,6 +42,8 @@ public: //accessed externally
 	// Maximum time that can be recorded in seconds
 	UPROPERTY(EditAnywhere, Category = "Rewind")
 	float MaxRecordTime = 5.0f;
+	UPROPERTY(EditAnywhere, Category = "UI")
+	TSubclassOf<UUserWidget> RewindWidgetClass;
 
 protected:
 
