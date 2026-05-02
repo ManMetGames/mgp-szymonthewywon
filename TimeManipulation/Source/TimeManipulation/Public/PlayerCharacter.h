@@ -55,17 +55,23 @@ protected:
 
 	UPROPERTY()
 	TArray<FTimeSnapshot> TimeBuffer;
-
+	//How often the player position and rotation is recorded
 	UPROPERTY(EditAnywhere, Category = "Rewind")
 	float RecordInterval = 0.2f;
-
+	// Maximum time that can be recorded in seconds
 	UPROPERTY(EditAnywhere, Category = "Rewind")
 	float MaxRecordTime = 5.0f;
+
+	// How many ticks to wait between rewind steps
+	UPROPERTY(EditAnywhere, Category = "Rewind")
+	int32 RewindTickInterval = 5;
+
+	// Internal counter
+	int32 RewindTickCounter = 0;
 
 	bool bIsRewinding = false;
 
 	float RecordTimer = 0.0f;
-
 
 	void TeleportForward();
 
