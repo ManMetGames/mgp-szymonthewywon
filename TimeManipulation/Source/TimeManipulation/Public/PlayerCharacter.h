@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -32,6 +30,18 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	
+
+public: //accessed externally
+
+	UPROPERTY()
+	TArray<FTimeSnapshot> TimeBuffer;
+	//How often the player position and rotation is recorded
+	UPROPERTY(EditAnywhere, Category = "Rewind")
+	float RecordInterval = 0.2f;
+	// Maximum time that can be recorded in seconds
+	UPROPERTY(EditAnywhere, Category = "Rewind")
+	float MaxRecordTime = 5.0f;
 
 protected:
 
@@ -53,14 +63,7 @@ protected:
 	void StartRewind();
 	void StopRewind();
 
-	UPROPERTY()
-	TArray<FTimeSnapshot> TimeBuffer;
-	//How often the player position and rotation is recorded
-	UPROPERTY(EditAnywhere, Category = "Rewind")
-	float RecordInterval = 0.2f;
-	// Maximum time that can be recorded in seconds
-	UPROPERTY(EditAnywhere, Category = "Rewind")
-	float MaxRecordTime = 5.0f;
+
 
 	// How many ticks to wait between rewind steps
 	UPROPERTY(EditAnywhere, Category = "Rewind")

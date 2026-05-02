@@ -107,17 +107,14 @@ struct Z_Construct_UClass_APlayerCharacter_Statics
 		{ "IncludePath", "PlayerCharacter.h" },
 		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[] = {
-		{ "Category", "PlayerCharacter" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SkipDistanceMultiplier_MetaData[] = {
-		{ "Category", "TimeSkip" },
-		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
-	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TimeBuffer_MetaData[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//accessed externally\n" },
+#endif
 		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "accessed externally" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RecordInterval_MetaData[] = {
 		{ "Category", "Rewind" },
@@ -139,6 +136,15 @@ struct Z_Construct_UClass_APlayerCharacter_Statics
 		{ "ToolTip", "Maximum time that can be recorded in seconds" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[] = {
+		{ "Category", "PlayerCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SkipDistanceMultiplier_MetaData[] = {
+		{ "Category", "TimeSkip" },
+		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RewindTickInterval_MetaData[] = {
 		{ "Category", "Rewind" },
 #if !UE_BUILD_SHIPPING
@@ -150,12 +156,12 @@ struct Z_Construct_UClass_APlayerCharacter_Statics
 #endif
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_Camera;
-	static const UECodeGen_Private::FFloatPropertyParams NewProp_SkipDistanceMultiplier;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_TimeBuffer_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_TimeBuffer;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_RecordInterval;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_MaxRecordTime;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Camera;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_SkipDistanceMultiplier;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_RewindTickInterval;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
@@ -164,20 +170,20 @@ struct Z_Construct_UClass_APlayerCharacter_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_TimeBuffer_Inner = { "TimeBuffer", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FTimeSnapshot, METADATA_PARAMS(0, nullptr) }; // 797901284
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_TimeBuffer = { "TimeBuffer", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, TimeBuffer), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TimeBuffer_MetaData), NewProp_TimeBuffer_MetaData) }; // 797901284
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_RecordInterval = { "RecordInterval", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, RecordInterval), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RecordInterval_MetaData), NewProp_RecordInterval_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxRecordTime = { "MaxRecordTime", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, MaxRecordTime), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxRecordTime_MetaData), NewProp_MaxRecordTime_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x0020080000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Camera_MetaData), NewProp_Camera_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_SkipDistanceMultiplier = { "SkipDistanceMultiplier", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, SkipDistanceMultiplier), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SkipDistanceMultiplier_MetaData), NewProp_SkipDistanceMultiplier_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_TimeBuffer_Inner = { "TimeBuffer", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FTimeSnapshot, METADATA_PARAMS(0, nullptr) }; // 797901284
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_TimeBuffer = { "TimeBuffer", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, TimeBuffer), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TimeBuffer_MetaData), NewProp_TimeBuffer_MetaData) }; // 797901284
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_RecordInterval = { "RecordInterval", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, RecordInterval), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RecordInterval_MetaData), NewProp_RecordInterval_MetaData) };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxRecordTime = { "MaxRecordTime", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, MaxRecordTime), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxRecordTime_MetaData), NewProp_MaxRecordTime_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_RewindTickInterval = { "RewindTickInterval", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, RewindTickInterval), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RewindTickInterval_MetaData), NewProp_RewindTickInterval_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCharacter_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Camera,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_SkipDistanceMultiplier,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_TimeBuffer_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_TimeBuffer,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_RecordInterval,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxRecordTime,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Camera,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_SkipDistanceMultiplier,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_RewindTickInterval,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::PropPointers) < 2048);
@@ -220,10 +226,10 @@ struct Z_CompiledInDeferFile_FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Sour
 		{ FTimeSnapshot::StaticStruct, Z_Construct_UScriptStruct_FTimeSnapshot_Statics::NewStructOps, TEXT("TimeSnapshot"), &Z_Registration_Info_UScriptStruct_FTimeSnapshot, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTimeSnapshot), 797901284U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APlayerCharacter, APlayerCharacter::StaticClass, TEXT("APlayerCharacter"), &Z_Registration_Info_UClass_APlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerCharacter), 1578807021U) },
+		{ Z_Construct_UClass_APlayerCharacter, APlayerCharacter::StaticClass, TEXT("APlayerCharacter"), &Z_Registration_Info_UClass_APlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerCharacter), 2307869774U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h__Script_TimeManipulation_475914502(TEXT("/Script/TimeManipulation"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h__Script_TimeManipulation_1192343878(TEXT("/Script/TimeManipulation"),
 	Z_CompiledInDeferFile_FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h__Script_TimeManipulation_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h__Script_TimeManipulation_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h__Script_TimeManipulation_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UE_5_7_mgp_szymonthewywon_TimeManipulation_Source_TimeManipulation_Public_PlayerCharacter_h__Script_TimeManipulation_Statics::ScriptStructInfo),
 	nullptr, 0);
