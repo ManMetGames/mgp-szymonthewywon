@@ -2,6 +2,10 @@
 	"BuildId": "43139311",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"TimeManipulation": "UnrealEditor-TimeManipulation-1175.dll"
+=======
+		"TimeManipulation": "UnrealEditor-TimeManipulation-9529.dll"
+>>>>>>> TimeskipTeleport
 	}
 }

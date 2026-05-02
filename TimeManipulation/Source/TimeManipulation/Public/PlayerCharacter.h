@@ -38,11 +38,15 @@ protected:
 	UPROPERTY(EditAnywhere)
 	class UCameraComponent* Camera;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TimeSkip")
+	float SkipDistanceMultiplier = 0.5f;
+
 	void MoveForward(float InputValue);
 	void MoveRight(float InputValue);
 
 	void Turn(float InputValue);
 	void LookUp(float InputValue);
+
 
 	void RecordPositions(float DeltaTime);
 	void HandleRewind();
@@ -61,5 +65,8 @@ protected:
 	bool bIsRewinding = false;
 
 	float RecordTimer = 0.0f;
+
+
+	void TeleportForward();
 
 };

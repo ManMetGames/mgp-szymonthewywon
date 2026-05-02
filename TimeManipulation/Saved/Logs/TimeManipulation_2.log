@@ -2292,6 +2292,7 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.29-12.38.52:723][500]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6238.257324
 [2026.04.29-12.38.53:723][503]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.04.29-12.38.53:723][503]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6238.924316, Update Interval: 352.906281
+<<<<<<< HEAD
 [2026.04.29-12.45.38:957][724]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6644.545410
 [2026.04.29-12.45.39:958][727]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.04.29-12.45.39:958][727]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6645.212402, Update Interval: 346.332581
@@ -2587,3 +2588,5 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.29-16.18.23:455][406]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19408.974609
 [2026.04.29-16.18.24:455][409]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.04.29-16.18.24:455][409]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19409.640625, Update Interval: 350.196228
+=======
+>>>>>>> TimeskipTeleport

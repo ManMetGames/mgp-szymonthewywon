@@ -43,6 +43,7 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
     PlayerInputComponent->BindAction("Rewind", IE_Pressed, this, &APlayerCharacter::StartRewind);
     PlayerInputComponent->BindAction("Rewind", IE_Released, this, &APlayerCharacter::StopRewind);
+	PlayerInputComponent->BindAction("Teleport", IE_Pressed, this, &APlayerCharacter::TeleportForward);
 }
 void APlayerCharacter::MoveForward(float InputValue)
 {
@@ -119,3 +120,21 @@ void APlayerCharacter::StopRewind()
 {
     bIsRewinding = false;
 }
+
+void APlayerCharacter::TeleportForward()
+{
+	FVector Velocity = GetVelocity();
+	float Speed = Velocity.Size();
+
+	if (Speed <= 0.0f)
+	{
+		return; // don't teleport if not moving
+	}
+
+	// Normalize velocity
+	FVector Direction = Velocity.GetSafeNormal();
+	float TeleportDistance = Speed * SkipDistanceMultiplier; // multiplier controls how far you go
+	FVector NewLocation = GetActorLocation() + Direction * TeleportDistance;
+	SetActorLocation(NewLocation, true); // true = prevents clipping through walls
+}
+
