@@ -5,7 +5,14 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "PlayerCharacter.generated.h"
+USTRUCT()
+struct FTimeSnapshot
+{
+	GENERATED_BODY(EBlueprintType)
 
+	FVector Location;
+	FRotator Rotation;
+};
 UCLASS()
 class TIMEMANIPULATION_API APlayerCharacter : public ACharacter
 {
@@ -36,4 +43,23 @@ protected:
 
 	void Turn(float InputValue);
 	void LookUp(float InputValue);
+
+	void RecordPositions(float DeltaTime);
+	void HandleRewind();
+	void StartRewind();
+	void StopRewind();
+
+	UPROPERTY()
+	TArray<FTimeSnapshot> TimeBuffer;
+
+	UPROPERTY(EditAnywhere, Category = "Rewind")
+	float RecordInterval = 0.2f;
+
+	UPROPERTY(EditAnywhere, Category = "Rewind")
+	float MaxRecordTime = 5.0f;
+
+	bool bIsRewinding = false;
+
+	float RecordTimer = 0.0f;
+
 };
