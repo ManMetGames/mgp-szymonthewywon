@@ -59,12 +59,21 @@ protected:
 	void Turn(float InputValue);
 	void LookUp(float InputValue);
 
-
+	// add DeltaTime float if handled in Tick
 	void RecordPositions(float DeltaTime);
 	void HandleRewind();
+	void HandleFOVChange(float DeltaTime);
 	void StartRewind();
 	void StopRewind();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Rewind|Camera")
+	float NormalFOV = 90.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Rewind|Camera")
+	float RewindFOV = 120.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Rewind|Camera")
+	float FOVChangeSpeed = 5.0f;
 
 
 	// How many ticks to wait between rewind steps

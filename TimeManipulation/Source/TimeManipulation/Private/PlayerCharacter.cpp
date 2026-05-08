@@ -31,6 +31,7 @@ void APlayerCharacter::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
     RecordPositions(DeltaTime);
+    HandleFOVChange(DeltaTime);
 
 }
 
@@ -121,6 +122,15 @@ void APlayerCharacter::RecordPositions(float DeltaTime) {
     else
     {
         HandleRewind();
+    }
+}
+void APlayerCharacter::HandleFOVChange(float DeltaTime) {
+    // Smooth FOV change while rewinding
+    if (Camera)
+    {
+        float TargetFOV = bIsRewinding ? RewindFOV : NormalFOV;
+        float NewFOV = FMath::FInterpTo(Camera->FieldOfView, TargetFOV, DeltaTime, FOVChangeSpeed);
+        Camera->SetFieldOfView(NewFOV);
     }
 }
 
